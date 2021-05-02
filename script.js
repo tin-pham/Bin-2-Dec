@@ -8,7 +8,7 @@ class Binary {
     if (bin === '') return false;
 
     for (let bit of bin) {
-      if (bit < 0 && bit > 1) {
+      if (bit != 0 && bit != 1) {
         return false;
       }
     }
